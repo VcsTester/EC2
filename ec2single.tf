@@ -13,6 +13,7 @@ provider "aws" {
   region  = "us-west-2"
 }
 
+
  #text
  
 resource "aws_instance" "app_server" {
