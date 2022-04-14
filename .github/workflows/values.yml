@@ -8,7 +8,7 @@ name: Test
    AUTH_URL : "https://zscaler-poc.us.auth0.com"
  jobs:
    test:
-     runs-on: self-hosted
+     runs-on: ubuntu-latest
      steps:
        - uses: actions/checkout@v2
        - uses : ZscalerCWP/Zscaler-IaC-Action@main
